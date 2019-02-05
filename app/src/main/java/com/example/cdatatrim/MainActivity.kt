@@ -53,7 +53,8 @@ class MainActivity : AppCompatActivity() {
     private fun removeNewLineAndRespan(spannified: CharSequence): CharSequence {
         val result = spannified.toString().replace(NEW_LINE, " ")
         val ss = SpannableString(result)
-        val length = if (TextUtils.isEmpty(progressText)) 0 else progressText.length
+//        val length = if (TextUtils.isEmpty(progressText)) 0 else progressText.length
+        val length = result.length
         ss.setSpan(AbsoluteSizeSpan(resources.getDimensionPixelSize(R.dimen.xl_text_size)), 0, length, Spannable.SPAN_INCLUSIVE_INCLUSIVE)
         return ss
     }
