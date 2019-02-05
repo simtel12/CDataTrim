@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <!-- Text appearance style used dashboard sharing used for white themes -->
+
+    <style name="Fitbit.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Fitbit.TextAppearance.Title1" parent="Fitbit.TextAppearance">
+        <item name="android:textSize">32sp</item>
+        <!--<item name="oldfont">proxima_nova_light</item>-->
+    </style>
+
+    <style name="Fitbit.TextAppearance.Title2" parent="Fitbit.TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <!--<item name="oldfont">proxima_nova_light</item>-->
+    </style>
+
+    <style name="TextAppearance.Dashboard.XtraLarge" parent="Fitbit.TextAppearance.Title1">
+        <item name="android:textSize">@dimen/xl_text_size</item>
+        <item name="android:textColor">@color/tileColor</item>
+    </style>
+
+    <style name="TextAppearance.Dashboard.SortaLarge" parent="Fitbit.TextAppearance.Title2">
+        <item name="android:textColor">@color/tileColor</item>
+    </style>
+
+    <style name="Fitbit.TextAppearance.Caption1" parent="Fitbit.TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <!--<item name="oldfont">proxima_nova_light</item>-->
+    </style>
+
+    <style name="TextAppearance.Dashboard.Small" parent="Fitbit.TextAppearance.Caption1">
+        <item name="android:textColor">@color/tileColor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CDataTrim</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="steps2">
+        <![CDATA[
+        <xl>%1$s</xl><br/>
+        %2$s
+        ]]>
+    </string>
+</resources>
